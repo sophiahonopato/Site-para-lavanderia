@@ -170,6 +170,16 @@
     box-shadow:0 30px 60px -22px rgba(5,30,36,0.55);
     animation:floaty 6s ease-in-out infinite;
   }
+
+  @media (max-width: 760px){
+  .vs-badge{
+    display: none;
+  }
+
+  .vs-head h2 em{
+    display: none;
+  }
+}
   @keyframes floaty{
     0%,100%{transform:translateY(0) rotate(0.3deg);}
     50%{transform:translateY(-14px) rotate(-0.3deg);}
